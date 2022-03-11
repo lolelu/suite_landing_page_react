@@ -16,20 +16,16 @@ export default function JustWorks() {
 
             <div className="relative mx-auto px-4 z-10 col-span-1 col-start-1 row-start-1 row-span-2 xl:ml-32  xl:row-span-2 xl:col-span-1 xl:row-start-1 xl:col-start-1">
                 <img className="absolute bottom-0 left-0" src={blur} alt="blur" />
-                <img className="relative hidden xl:block" src={jeremyLarge1x} srcSet={`${jeremyLarge2x} 2x`} alt="jeremy" />
+                <img className="relative hidden xl:block hover:-scale-x-100" src={jeremyLarge1x} srcSet={`${jeremyLarge2x} 2x`} alt="jeremy" />
                 <img className="relative xl:hidden" src={jeremySmall1x} srcSet={`${jeremySmall2x} 2x`} alt="jeremy" />
 
             </div>
 
-
-            <div className=" xl:hidden">
-
-            </div>
-
-
-
-
-            <img className="mx-auto pt-10 pb-9 row-start-3 row-span-1 col-span-1 col-start-1 xl:col-start-2 xl:col-span-1 xl:row-span-1 xl:row-start-2 xl:pl-9 xl:pr-12 xl:pt-40" src={curvedLine} alt="curved-line" />
+            <img
+                className="mx-auto pt-10 pb-9 row-start-3 row-span-1 col-span-1 col-start-1 xl:col-start-2 xl:col-span-1 xl:row-span-1 xl:row-start-2 xl:pl-9 xl:pr-12 xl:pt-40"
+                src={curvedLine}
+                alt="curved-line"
+            />
 
             <div className="text-center xl:text-left row-start-4 row-span-1 col-span-1 col-start-1 xl:col-start-3 xl:col-span-1 xl:row-start-2 xl:row-span-1 xl:py-[5.5rem] xl:pr-16 2xl:pr-32" >
 

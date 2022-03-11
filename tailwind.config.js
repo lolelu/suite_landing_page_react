@@ -15,6 +15,19 @@ module.exports = {
       'gray-light': '#d3dce6',
       'white': '#faf8f6',
     },
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    },
 
     fontFamily: {
       'sans': ['Epilogue', 'ui-sans-serif', 'system-ui']
@@ -25,7 +38,6 @@ module.exports = {
         sm: '2rem',
         lg: '4rem',
         xl: '5rem',
-        '2xl': '6rem',
       },
     },
 
