@@ -6,7 +6,7 @@ import Logo from "../Components/Logo";
 
 const Footer = () => {
     return (
-        <div className="container space-y-8 mx-auto flex justify-center flex-col content-center text-center pt-14 pb-20 sm:flex-row sm:space-y-0 sm:justify-between sm:py-[4.5rem] lg:pt-24">
+        <footer className="container space-y-8 mx-auto flex justify-center flex-col content-center text-center pt-14 pb-20 sm:flex-row sm:space-y-0 sm:justify-between sm:py-[4.5rem] lg:pt-24">
 
             <div className="flex align-middle justify-center">
                 <Logo />
@@ -21,7 +21,7 @@ const Footer = () => {
                 {SocialLink(instagramIcon, "link-instagram", "#")}
 
             </div>
-        </div>
+        </footer>
     )
 
     function SocialLink(icon, alt, href) {

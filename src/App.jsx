@@ -19,10 +19,12 @@ function App() {
           <Logo />
           <ButtonTop text="Request Beta Access" />
         </Navbar>
+        <main>
+          <SuperSolution />
 
-        <SuperSolution />
+          <JustWorks />
+        </main>
 
-        <JustWorks />
 
         <Footer />
       </div>

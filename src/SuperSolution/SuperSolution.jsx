@@ -51,9 +51,9 @@ export default SuperSolution;
 
 function Stats(title, description) {
     return <div>
-        <h6 className=" text-blue text-5xl font-bold leading-[3.5rem]">
+        <h2 className=" text-blue text-5xl font-bold leading-[3.5rem]">
             {title}
-        </h6>
+        </h2>
         <p className=" text-gray-dark text-base leading-6 uppercase tracking-[0.15em]">
             {description}
         </p>
